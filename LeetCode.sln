@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X_of_a_Kind_in_a_Deck_of_Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Short_Encoding_of_Words", "Short_Encoding_of_Words\Short_Encoding_of_Words.csproj", "{6B29E6F5-3AAD-4B81-835D-CC74C4318C07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCOF", "LCOF\LCOF.csproj", "{4F18B772-67ED-4AA0-9911-F56563A053B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B29E6F5-3AAD-4B81-835D-CC74C4318C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B29E6F5-3AAD-4B81-835D-CC74C4318C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B29E6F5-3AAD-4B81-835D-CC74C4318C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F18B772-67ED-4AA0-9911-F56563A053B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F18B772-67ED-4AA0-9911-F56563A053B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F18B772-67ED-4AA0-9911-F56563A053B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F18B772-67ED-4AA0-9911-F56563A053B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
