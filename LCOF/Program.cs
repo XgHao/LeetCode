@@ -10,9 +10,20 @@ namespace LCOF
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine(LastRemaining2(5, 3));
             Console.Read();
         }
+
+        public static int LastRemaining2(int n,int m)
+        {
+            if (n == 1) 
+            {
+                return 0;
+            }
+            return (LastRemaining2(n - 1, m) + m) % n;
+        }
+
 
         public static int LastRemaining(int n, int m)
         {
@@ -26,7 +37,7 @@ namespace LCOF
             //取余就是除去第几个
             int times = n - 1;
             int res = 1;
-            for (int i = 0; i < times; i++) 
+            for (int i = 0; i < times; i++)
             {
                 //取余
                 res = (m + res - 1) % n;
@@ -46,13 +57,5 @@ namespace LCOF
             return lists[0];
         }
 
-        public static int LastRemaining2(int n,int m)
-        {
-            if (n == 1) 
-            {
-                return 0;
-            }
-            return (LastRemaining2(n - 1, m) + m) % n;
-        }
     }
 }
