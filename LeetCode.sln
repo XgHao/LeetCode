@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySort", "ArraySort\Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid_Parentheses", "Valid_Parentheses\Valid_Parentheses.csproj", "{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Life\Game_Of_Life.csproj", "{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
