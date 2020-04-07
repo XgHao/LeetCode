@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Lif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_to_Integer(atoi)", "String_to_Integer(atoi)\String_to_Integer(atoi).csproj", "{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate_Matrix_LCCI", "Rotate_Matrix_LCCI\Rotate_Matrix_LCCI.csproj", "{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

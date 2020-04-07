@@ -11,13 +11,58 @@ namespace ArraySort
     {
         static void Main(string[] args)
         {
-            int[] nums = { 7, 5, 4, 2, 4, 5, 6 };
-            Insertion_Sort(ref nums);
-            for (int i = 0; i < nums.Length; i++)
+            //int[,] arr1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            //int[][] arr2 = { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } };
+            int m = 5, n = 6;
+
+            int[,] arr1 = new int[m, n];
+            int[][] arr2 = new int[m][];
+
+            for (int i = 0; i < m; i++)
             {
-                Console.WriteLine($"nums[{i}]={nums[i]}");
+                for (int j = 0; j < n; j++)
+                {
+                    arr1[i, j] = i + 1;
+                }
             }
-            Console.Read();
+
+            for (int i = 0; i < m; i++)
+            {
+                int[] arr = new int[n];
+                for (int j = 0; j < n; j++)
+                {
+                    arr[j] = i + 1;
+                }
+                arr2[i] = arr;
+            }
+
+            int num1 = arr1[1, 2];
+            int num2 = arr2[1][2];
+
+            arr1[1, 2] = 10;
+            arr2[2][2] = 10;
+
+            int len1 = arr1.Length;
+            int len2 = arr2.Length;
+
+            int len11 = arr1.GetLength(0);
+            int len111 = arr1.GetLength(1);
+
+            int len22 = arr2.GetLength(0);
+            //int len222 = arr2.GetLength(1);  
+
+
+            //遍历
+            int rank1 = arr1.Rank;
+            int rank2 = arr2.Rank;
+
+            for (int i = 0; i < arr1.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr1.GetLength(1); j++)
+                {
+                    //To Do
+                }
+            }
         }
 
         #region 插入排序
@@ -71,16 +116,16 @@ namespace ArraySort
 
         private static void Bubble(ref int[] nums, int pos)
         {
-            for (int i = 0; i < nums.Length - 1 - pos; i++) 
+            for (int i = 0; i < nums.Length - 1 - pos; i++)
             {
                 //交换
-                if (nums[i] > nums[i + 1]) 
+                if (nums[i] > nums[i + 1])
                 {
                     int temp = nums[i];
                     nums[i] = nums[i + 1];
                     nums[i + 1] = temp;
                 }
-            }   
+            }
         }
         #endregion
     }
