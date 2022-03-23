@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29911.84
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X_of_a_Kind_in_a_Deck_of_Cards", "LeetCode\X_of_a_Kind_in_a_Deck_of_Cards.csproj", "{6C3E6517-BE04-4B3D-AA7C-DD3B1FA1CB97}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_to_Integer(atoi)", "String_to_Integer(atoi)\String_to_Integer(atoi).csproj", "{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate_Matrix_LCCI", "Rotate_Matrix_LCCI\Rotate_Matrix_LCCI.csproj", "{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{92AC0388-9305-49F3-BF49-500026532245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majority_Element", "Majority_Element\Majority_Element.csproj", "{1AE9F379-7900-4CA4-A662-8C157EE52017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AC0388-9305-49F3-BF49-500026532245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AC0388-9305-49F3-BF49-500026532245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AC0388-9305-49F3-BF49-500026532245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AC0388-9305-49F3-BF49-500026532245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
