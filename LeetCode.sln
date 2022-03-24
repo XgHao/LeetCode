@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majority_Element", "Majority_Element\Majority_Element.csproj", "{1AE9F379-7900-4CA4-A662-8C157EE52017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortArray", "MergeSortArray\MergeSortArray.csproj", "{C8335406-E260-4E4F-86F3-012E60F47480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPowerOfTwo", "IsPowerOfTwo\IsPowerOfTwo.csproj", "{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AE9F379-7900-4CA4-A662-8C157EE52017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8335406-E260-4E4F-86F3-012E60F47480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8335406-E260-4E4F-86F3-012E60F47480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8335406-E260-4E4F-86F3-012E60F47480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8335406-E260-4E4F-86F3-012E60F47480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
