@@ -19,13 +19,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_to_Integer(atoi)", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate_Matrix_LCCI", "Rotate_Matrix_LCCI\Rotate_Matrix_LCCI.csproj", "{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{92AC0388-9305-49F3-BF49-500026532245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram", "Anagram\Anagram.csproj", "{92AC0388-9305-49F3-BF49-500026532245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majority_Element", "Majority_Element\Majority_Element.csproj", "{1AE9F379-7900-4CA4-A662-8C157EE52017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Majority_Element", "Majority_Element\Majority_Element.csproj", "{1AE9F379-7900-4CA4-A662-8C157EE52017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortArray", "MergeSortArray\MergeSortArray.csproj", "{C8335406-E260-4E4F-86F3-012E60F47480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSortArray", "MergeSortArray\MergeSortArray.csproj", "{C8335406-E260-4E4F-86F3-012E60F47480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPowerOfTwo", "IsPowerOfTwo\IsPowerOfTwo.csproj", "{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsPowerOfTwo", "IsPowerOfTwo\IsPowerOfTwo.csproj", "{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecentCounter", "RecentCounter\RecentCounter.csproj", "{DA0A41C0-5B58-4FA4-A751-2FFF8308F246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211F5F9D-4D74-48B8-9AEB-21C5EFE984E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0A41C0-5B58-4FA4-A751-2FFF8308F246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0A41C0-5B58-4FA4-A751-2FFF8308F246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0A41C0-5B58-4FA4-A751-2FFF8308F246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0A41C0-5B58-4FA4-A751-2FFF8308F246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
