@@ -2,14 +2,19 @@
 
 public static class FullPermutationImp
 {
-    private static int _count = 0;
+    private static int _count;
 
     /// <summary>
-    /// 全排列.
+    /// 对数字进行全排列.
     /// </summary>
-    /// <param name="arr">要排列的数组.</param>
-    /// <param name="beginIndex">排列的开始索引.</param>
-    public static void FullPermutation(this int[] arr, int beginIndex = 0)
+    /// <param name="arr"></param>
+    public static void PrintFullPermutation(this int[] arr)
+    {
+        _count = 0;
+        FullPermutation(arr, 0);
+    }
+
+    private static void FullPermutation(int[] arr, int beginIndex)
     {
         // 只剩一个数字时，排列结束
         if (beginIndex + 1 == arr.Length)
