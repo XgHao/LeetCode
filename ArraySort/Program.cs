@@ -11,9 +11,9 @@ while (true)
         .Select(int.Parse);
     if (arr?.Count() > 0)
     {
-        // ISort sort = new BubbleSort();
-        // ISort sort = new SelectionSort();
-        ISort sort = new InsertSort();
+        // var sort = SortBuilder.Build(SortAlgorithm.Bubble);
+        // var sort = SortBuilder.Build(SortAlgorithm.Selection);
+        var sort = SortBuilder.Build(SortAlgorithm.Insert);
         Console.WriteLine($"正序：{string.Join(' ', sort.Sort(arr))}");
         Console.WriteLine($"倒序：{string.Join(' ', sort.DescSort(arr))}");
     }
