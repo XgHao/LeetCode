@@ -1,6 +1,6 @@
 ﻿namespace ArraySort.Algorithm;
 
-public class SortBuilder
+public static class SortBuilder
 {
     /// <summary>
     /// 创建排序器.
@@ -9,18 +9,12 @@ public class SortBuilder
     /// <returns></returns>
     public static ISort Build(SortAlgorithm? sortAlgorithm = SortAlgorithm.Bubble)
     {
-        switch (sortAlgorithm)
+        return sortAlgorithm switch
         {
-            case SortAlgorithm.Bubble:
-                return new BubbleSort();
-
-            case SortAlgorithm.Insert:
-                return new InsertSort();
-
-            case SortAlgorithm.Selection:
-                return new SelectionSort();
-        }
-
-        return new BubbleSort();
+            SortAlgorithm.Bubble => new BubbleSort(),
+            SortAlgorithm.Insert => new InsertSort(),
+            SortAlgorithm.Selection => new SelectionSort(),
+            _ => new BubbleSort(),
+        };
     } 
 }

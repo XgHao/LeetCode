@@ -12,12 +12,12 @@ public class SelectionSort : ISort
     /// <param name="arrLen">数组长度.</param>
     /// <param name="func">冒泡规则.</param>
     /// <returns></returns>
-    private static int FindMaxIndex(int[] arr, int arrLen, Func<int, int, bool> func)
+    private static int FindMaxIndex(IList<int> arr, int arrLen, Func<int, int, bool> func)
     {
         // 假设第一个元素最大.
         var maxIndex = 0;
         var max = arr[0];
-        for (int i = 1; i < arrLen; i++)
+        for (var i = 1; i < arrLen; i++)
         {
             if (func(arr[i], max))
             {
@@ -28,9 +28,9 @@ public class SelectionSort : ISort
         return maxIndex;   
     }
 
-    private static void Selection_Sort(int[] arr, Func<int, int, bool> func)
+    private static void Selection_Sort(IList<int> arr, Func<int, int, bool> func)
     {
-        var arrLen = arr.Length;
+        var arrLen = arr.Count;
         while (arrLen > 0)
         {
             // 找到最大值位置与当前做交换

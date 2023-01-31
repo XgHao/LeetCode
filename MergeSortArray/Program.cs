@@ -3,9 +3,11 @@
 while (true)
 {
     var input = Console.ReadLine();
-    var aArr = input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray();
+    var aArr = input?.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray() ??
+               Array.Empty<int>();
     input = Console.ReadLine();
-    var bArr = input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray();
+    var bArr = input?.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray() ??
+               Array.Empty<int>();
     Merge(aArr, bArr).ToList().ForEach(Console.Write);
 }
 

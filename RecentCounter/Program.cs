@@ -63,8 +63,8 @@ public class RecentCounterV3
         _pingCnt++;
         _tList.Add(t);
 
-        int res = 0;
-        for (int i = _pingCnt - 1; i >= 0; i--)
+        var res = 0;
+        for (var i = _pingCnt - 1; i >= 0; i--)
         {
             if (_tList[i] < t - 3000)
             {

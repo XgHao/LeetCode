@@ -14,19 +14,19 @@ public static class FullPermutationImp
         FullPermutation(arr, 0);
     }
 
-    private static void FullPermutation(int[] arr, int beginIndex)
+    private static void FullPermutation(IList<int> arr, int beginIndex)
     {
         // 只剩一个数字时，排列结束
-        if (beginIndex + 1 == arr.Length)
+        if (beginIndex + 1 == arr.Count)
         {
-            Console.Write($"第{(++_count),-3}种排列：[");
+            Console.Write($"第{++_count,-3}种排列：[");
             arr.ToList().ForEach(Console.Write);
             Console.WriteLine("]");
             return;
         }
 
         // 每个数字都放到头部.
-        for (int index = beginIndex; index < arr.Length; index++)
+        for (var index = beginIndex; index < arr.Count; index++)
         {
             (arr[index], arr[beginIndex]) = (arr[beginIndex], arr[index]);
 

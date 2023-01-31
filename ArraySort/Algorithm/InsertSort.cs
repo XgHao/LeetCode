@@ -9,7 +9,7 @@ public class InsertSort : ISort
     /// <param name="arrLen">数组长度.</param>
     /// <param name="func">排序规则.</param>
     /// <returns></returns>
-    private static void Insert(int[] arr, int arrLen, Func<int, int, bool> func)
+    private static void Insert(IList<int> arr, int arrLen, Func<int, int, bool> func)
     {
         var keyIndex = arrLen - 1;
         var key = arr[keyIndex];
@@ -30,10 +30,10 @@ public class InsertSort : ISort
         arr[keyIndex] = key;
     }
 
-    private static void Insert_Sort(int[] arr, Func<int, int, bool> func)
+    private static void Insert_Sort(IList<int> arr, Func<int, int, bool> func)
     {
         // 从第二个数开始插入
-        for (int i = 2; i <= arr.Length; i++)
+        for (var i = 2; i <= arr.Count; i++)
         {
             Insert(arr, i, func);
         }

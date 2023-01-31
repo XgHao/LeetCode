@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCOF", "LCOF\LCOF.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid_Parentheses", "Valid_Parentheses\Valid_Parentheses.csproj", "{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Of_Life", "Game_Of_Life\Game_Of_Life.csproj", "{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_to_Integer(atoi)", "String_to_Integer(atoi)\String_to_Integer(atoi).csproj", "{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate_Matrix_LCCI", "Rotate_Matrix_LCCI\Rotate_Matrix_LCCI.csproj", "{2A7116D4-E277-4BE1-A72C-DB27FFFBA022}"
@@ -31,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullPermutation", "FullPerm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanoi", "Hanoi\Hanoi.csproj", "{108D7BAB-E6E8-447E-9730-205CB84A0E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySort", "ArraySort\ArraySort.csproj", "{38F66C02-6DAC-45AB-A885-ABC04EA62C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraySort", "ArraySort\ArraySort.csproj", "{38F66C02-6DAC-45AB-A885-ABC04EA62C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{1C242D0C-BCD2-480A-960F-F97DA55035AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +55,6 @@ Global
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1816EF36-9650-46EF-8DC0-A5B6CAD1D042}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49F0C452-F47F-480A-966D-8CAC7DCCB4AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13175EE-06C1-4265-BE04-9E7D7B8B9D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -99,6 +95,10 @@ Global
 		{38F66C02-6DAC-45AB-A885-ABC04EA62C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F66C02-6DAC-45AB-A885-ABC04EA62C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F66C02-6DAC-45AB-A885-ABC04EA62C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C242D0C-BCD2-480A-960F-F97DA55035AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C242D0C-BCD2-480A-960F-F97DA55035AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C242D0C-BCD2-480A-960F-F97DA55035AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C242D0C-BCD2-480A-960F-F97DA55035AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

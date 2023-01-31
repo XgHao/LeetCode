@@ -4,12 +4,12 @@ while (true)
 {
     var sStr = Console.ReadLine();
     var tStr = Console.ReadLine();
-    Console.WriteLine(IsAnagram(sStr.ToCharArray(), tStr.ToCharArray()));
+    Console.WriteLine(IsAnagram(sStr?.ToCharArray(), tStr?.ToCharArray()));
 }
 
-bool IsAnagram(char[] sArr, char[] tArr)
+static bool IsAnagram(IReadOnlyList<char>? sArr, IReadOnlyList<char>? tArr)
 {
-    if (sArr.Length != tArr.Length)
+    if (sArr == null || tArr == null || sArr.Count != tArr.Count)
     {
         return false;
     }
@@ -17,8 +17,8 @@ bool IsAnagram(char[] sArr, char[] tArr)
     var sCount = new int[26];
     var tCount = new int[26];
 
-    var len = sArr.Length;
-    for (int i = 0; i < len; i++)
+    var len = sArr.Count;
+    for (var i = 0; i < len; i++)
     {
         var sIndex = sArr[i] - 'a';
         sCount[sIndex]++;
@@ -26,7 +26,7 @@ bool IsAnagram(char[] sArr, char[] tArr)
         tCount[tIndex]++;
     }
 
-    for (int i = 0; i < sCount.Length; i++)
+    for (var i = 0; i < sCount.Length; i++)
     {
         if (sCount[i] != tCount[i])
         {

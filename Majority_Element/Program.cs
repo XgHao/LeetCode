@@ -2,14 +2,14 @@
 while (true)
 {
     var input = Console.ReadLine();
-    var arr = input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray();
+    var arr = input?.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(e => Convert.ToInt32(e)).ToArray() ?? Array.Empty<int>();
     Console.WriteLine(MajorityElement(arr));
     Console.WriteLine(MajorityElementV2(arr));
 }
 
 int MajorityElement(int[] arr)
 {
-    if (!(arr?.Length > 0))
+    if (!(arr.Length > 0))
     {
         return 0;
     }
@@ -39,7 +39,7 @@ int MajorityElement(int[] arr)
 
 int MajorityElementV2(int[] arr)
 {
-    if (!(arr?.Length > 0))
+    if (!(arr.Length > 0))
     {
         return 0;
     }

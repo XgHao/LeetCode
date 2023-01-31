@@ -11,9 +11,9 @@ public class BubbleSort : ISort
     /// <param name="arr">数组.</param>
     /// <param name="arrLen">数组长度..</param>
     /// <param name="func">冒泡规则.</param>
-    private static void Bubble(int[] arr, int arrLen, Func<int, int, bool> func)
+    private static void Bubble(IList<int> arr, int arrLen, Func<int, int, bool> func)
     {
-        for (int i = 0; i < arrLen - 1; i++)
+        for (var i = 0; i < arrLen - 1; i++)
         {
             if (func(arr[i], arr[i + 1]))
             {
@@ -27,10 +27,10 @@ public class BubbleSort : ISort
     /// </summary>
     /// <param name="arr">数组.</param>
     /// <param name="func">冒泡规则.</param>
-    private static void Bubble_Sort(int[] arr, Func<int, int, bool> func)
+    private static void Bubble_Sort(IList<int> arr, Func<int, int, bool> func)
     {
         // 从最后一个开始排序
-        var arrLen = arr.Length;
+        var arrLen = arr.Count;
         while (arrLen > 0)
         {
             Bubble(arr, arrLen, func);

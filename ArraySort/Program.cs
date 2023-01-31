@@ -8,8 +8,9 @@ while (true)
     var arr = Console.ReadLine()
         ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
         .Where(e => int.TryParse(e, out _))
-        .Select(int.Parse);
-    if (arr?.Count() > 0)
+        .Select(int.Parse)
+        .ToList();
+    if (arr?.Count > 0)
     {
         // var sort = SortBuilder.Build(SortAlgorithm.Bubble);
         // var sort = SortBuilder.Build(SortAlgorithm.Selection);
